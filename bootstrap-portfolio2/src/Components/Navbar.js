@@ -8,7 +8,7 @@ function Navbar() {
       style={{ backgroundColor: "#c0c5cd" }}
     >
       <div class="container navbar-content">
-        <span class="navbar-brand mb-0 h1">Casey Carroll</span>
+        <span class="navbar-brand mb-0 h1"><h1 style={{ borderBottom: "none" }}>Casey Carroll</h1></span>
         <button
           class="navbar-toggler"
           type="button"
