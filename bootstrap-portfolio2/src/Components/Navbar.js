@@ -21,12 +21,12 @@ function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <Link class="nav-link" href="#" />
-          About
-          <Link class="nav-link" href="#" />
-          Portfolio
-          <Link class="nav-link" href="#" />
-          Contact
+          <Link class="nav-link" to="/">
+          About</Link>
+          <Link class="nav-link" to="/portfolio">
+          Portfolio</Link>
+          <Link class="nav-link" to="/contact">
+          Contact</Link>
         </div>
       </div>
     </nav>

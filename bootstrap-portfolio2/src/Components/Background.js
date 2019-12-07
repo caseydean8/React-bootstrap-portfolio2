@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function Background() {
-  return (
-    <div className="bg">
-      
-    </div>
-  )
+  return <div style={backgroundImage}></div>;
 }
 
-export default Background
+const backgroundImage = {
+  height: "100%",
+  background: "url(./Images/water-droplet.jpg)",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover"
+}
+
+export default Background;
