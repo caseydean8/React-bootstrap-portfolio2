@@ -63,7 +63,7 @@ button {
   border-color: #3e588f;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 0 20px 20px;
+  padding: 10px 20px 20px;
   border-radius: 10px;
   /* position: relative; */
 }
@@ -71,20 +71,6 @@ button {
 h1, h3 {
   color: #203562;
   border-bottom: 3px solid #3e588f;
-}
-
-/* .image {
-  float: left;
-  position: relative;
-  width: 400px;
-  padding-bottom: 20px;
-} */
-
-input {
-  width: 100%;
-  margin: 10px 0;
-  height: 20px;
-  border-radius: 1px;
 }
 
 li {
@@ -98,10 +84,6 @@ li {
 .portfolio-bottom {
   padding-top: 20px;
 }
-
-/* .portfolio {
-  min-height: 772px;
-} */
 
 ul {
   padding-inline-start: 0;

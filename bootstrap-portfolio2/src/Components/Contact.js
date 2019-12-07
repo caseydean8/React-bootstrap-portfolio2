@@ -1,11 +1,16 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   return (
     <div class="container content">
       <Form>
+        <Form.Group controlId="formBasicName">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="name" placeholder="Enter name" />
+        </Form.Group>
+
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
@@ -15,12 +20,10 @@ function Contact() {
         </Form.Group>
 
         <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Label>Enter Message</Form.Label>
+          <Form.Control type="password" />
         </Form.Group>
-        <Form.Group controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
+        
         <Button variant="primary" type="submit">
           Submit
         </Button>
