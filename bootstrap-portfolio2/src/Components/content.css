@@ -46,9 +46,15 @@ button {
   z-index: 1000;
 }
 
+.container {
+  max-width: 960px;
+}
+
 .content {
   /* width: 960px; */
   /* height: auto; */
+  /* max-height: 100vh; */
+  /* width: auto; */
   margin: 0 auto;
   text-align: left;
   background: #e3e8f8;
