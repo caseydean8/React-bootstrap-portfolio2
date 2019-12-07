@@ -2,11 +2,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <nav
-      class="navbar fixed-bottom"
+    <footer
+      // class="navbar fixed-bottom"
       style={footerStyle}
     >
-    </nav>
+    </footer>
   );
 }
 
@@ -14,7 +14,10 @@ const footerStyle = {
   backgroundColor: "#203562",
   height: "70px",
   borderTop: '8px solid',
-  borderColor: '#c0c5cd'
+  borderColor: '#c0c5cd',
+  position: "absolute",
+  bottom: "0",
+  width: "100%"
 }
 
 export default Footer;

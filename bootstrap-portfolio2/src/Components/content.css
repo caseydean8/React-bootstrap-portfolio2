@@ -1,17 +1,16 @@
- * {
+* {
   box-sizing: border-box;
-} 
+}
 
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
+/* html {
+  min-height: 100%;
   position: relative;
-}
+} */
 
 a {
   color: #203562;
@@ -39,10 +38,18 @@ button {
   font-size: large;
 }
 
+.carousel {
+  -moz-border-radius: 10px; /* FF1+ */
+  -webkit-border-radius: 10px; /* Saf3-4, iOS 1+, Android 1.5+ */
+  border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+  overflow: hidden;
+  z-index: 1000;
+}
+
 .content {
   /* width: 960px; */
   /* height: auto; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   text-align: left;
   background: #e3e8f8;
   border-width: 2px;
@@ -52,30 +59,26 @@ button {
   margin-bottom: 20px;
   padding: 0 20px 20px;
   border-radius: 10px;
+  /* position: relative; */
 }
 
-h1 {
+h1, h3 {
   color: #203562;
   border-bottom: 3px solid #3e588f;
 }
 
-.image {
+/* .image {
   float: left;
   position: relative;
   width: 400px;
-  padding-bottom: 20px
-}
-
-img {
-  width: 400px;
-  padding: 0px 20px 0 0;
-}
+  padding-bottom: 20px;
+} */
 
 input {
   width: 100%;
   margin: 10px 0;
   height: 20px;
-  border-radius: 1px
+  border-radius: 1px;
 }
 
 li {
@@ -90,9 +93,9 @@ li {
   padding-top: 20px;
 }
 
-#portfolio {
-  height: 1010px;
-}
+/* .portfolio {
+  min-height: 772px;
+} */
 
 ul {
   padding-inline-start: 0;

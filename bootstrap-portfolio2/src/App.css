@@ -1,10 +1,13 @@
 .App {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 70px;
   /* https://mdbootstrap.com/docs/react/css/background-image/ */
   /* add background image that resizes */
-  height: 100%;
   background: url("./Images/water-droplet.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
 }

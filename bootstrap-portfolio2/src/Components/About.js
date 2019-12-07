@@ -32,7 +32,8 @@ function About() {
 
 const imageStyle = {
   width: "200px",
-  float: "left"
+  float: "left",
+  padding: "0px 20px 0 0"
 };
 
 export default About;
