@@ -5,7 +5,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Portfolio from "./Components/Portfolio"
+import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
 import "./Components/content.css";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Navbar />
         <Route exact path="/" component={About} />
         <Route path="/portfolio" component={Portfolio} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/contact" component={Contact} />
         <Footer />
         {/* </Background> */}
       </div>
